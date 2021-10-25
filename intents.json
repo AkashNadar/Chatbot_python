@@ -1,0 +1,77 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "good", "what's up?", "how is it going?"],
+    "responses": ["Hello!", "Hey! What can I do for you?"]
+    },
+    
+    {"tag": "Name",
+        "patterns": ["Name", "your Name", "what is your name", "how can i call you", "call you"],
+        "responses": ["My Self PyBot!", "pyBot! any thing do you want to know about python."]
+    },
+
+    {"tag": "Introduction",
+        "patterns": ["Introduction python", "python", "tell me about python"],
+        "responses": ["Python was developed by Guido van Rossum and was released first on February 20, 1991. It is one of the most widely-used and loved programming languages and is interpreted in nature thereby providing flexibility of incorporating dynamic semantics. It is also a free and open-source language with very simple and clean syntax."]
+    },
+
+    {"tag": "Python",
+        "patterns": ["What is Python?", "what is ", "python"],
+        "responses": ["Python is a high-level, interpreted, general-purpose programming language. Being a general-purpose language, it can be used to build almost any type of application with the right tools/libraries. Additionally, python supports objects, modules, threads, exception-handling, and automatic memory management which help in modeling real-world problems and building applications to solve these problems."]
+    },
+
+    {"tag": "Benefits",
+        "patterns": ["benefits of python", "benefits", "python benefits", "benefits of usong python"],
+        "responses": ["1) Python is a general-purpose programming language that has a simple, easy-to-learn syntax that emphasizes readability and therefore reduces the cost of program maintenance.\n2) Its high-level data structures, combined with dynamic typing and dynamic binding, attract a huge community of developers for Rapid Application Development and deployment."]
+    },
+
+    {"tag": "Interpreted",
+        "patterns": ["what is interpreted language", "Interpretd", "Interpreted language", "what is Interpreted language"],
+        "responses": ["An Interpreted language executes its statements line by line. Languages such as Python, Javascript, R, PHP, and Ruby are prime examples of Interpreted languages. Programs written in an interpreted language runs directly from the source code, with no intermediary compilation step."]
+    },
+
+    {"tag": "Scope",
+        "patterns": ["Scop", "Scop of python", "Scop python", "what is scop"],
+        "responses": ["Every object in Python functions within a scope. A scope is a block of code where an object in Python remains relevant. Namespaces uniquely identify all the objects inside a program. \n1) A local scope refers to the local objects available in the current function.\n2) A global scope refers to the objects available throughout the code execution since their inception.\n3) A module-level scope refers to the global objects of the current module accessible in the program.\n4) An outermost scope refers to all the built-in names callable in the program. "]
+    },
+
+    {"tag": "Pass",
+        "patterns": ["Pass", "what is pass", "pass python", "what is pass"],
+        "responses": ["The pass keyword represents a null operation in Python. It is generally used for the purpose of filling up empty blocks of code which may execute during runtime but has yet to be written. Without the pass statement in the following code, we may run into some errors during code execution."]
+    },
+
+    {"tag": "Self",
+        "patterns": ["Self", "Self in python", "self python", "what is self"],
+        "responses": ["Self is a keyword in Python used to define an instance of an object of a class. In Python, it is explicitly used as the first parameter, unlike in Java where it is optional. It helps in distinguishing between the methods and attributes of a class from its local variables."]
+    },
+
+    {"tag": "__init__",
+        "patterns": ["__init__", "__init__ in python", "what is __init__", "__init__ python"],
+        "responses": ["__init__ is a contructor method in Python and is automatically called to allocate memory when a new object/instance is created. All classes have a __init__ method associated with them. It helps in distinguishing methods and attributes of a class from local variables."]
+    },
+
+    {"tag": "Docstring",
+        "patterns": ["docstring", "what is docstring", "docstring in python", "docstring python"],
+        "responses": ["1) Documentation string or docstring is a multiline string used to document a specific code segment.\n2) The docstring should describe what the function or method does."]
+    },
+
+    {"tag": "Slicing",
+        "patterns": ["slicing", "what is slicing", "python slicing"],
+        "responses": ["1) As the name suggests, ‘slicing’ is taking parts of.\n2) Syntax for slicing is [start : stop : step]"]
+    },
+
+    {"tag": "Unit Tests",
+        "patterns": ["unit tests", "what is unit tests", "python unit tests"],
+        "responses": ["1) Unit test is a unit testing framework of Python.\n2) Unit testing means testing different components of software separately. "]
+    },
+
+    {"tag": "Memory Managed",
+        "patterns": ["memory managed", "what is memory managed", "memory managed in python"],
+        "responses": ["Memory management in Python is handled by the Python Memory Manager. The memory allocated by the manager is in form of a private heap space dedicated to Python. All Python objects are stored in this heap and being private, it is inaccessible to the programmer."]
+    },
+
+    {"tag": "goodbye",
+    "patterns": ["cya", "see you later", "Goodbye", "I am Leaving", "Have a good day", "bye", "see ya"],
+    "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+    }
+
+]}
